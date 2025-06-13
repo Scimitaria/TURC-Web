@@ -1,0 +1,44 @@
+[
+    {
+        "distance":"1600",
+        "time":"5:08",
+        "holder":"Ellis Meyer",
+        "sex":"M"
+    },
+    {
+        "distance":"1600",
+        "time":"7:30",
+        "holder":"Jade Humphrey",
+        "sex":"F"
+    },
+    {
+        "distance":"5000",
+        "time":"16:26",
+        "holder":"Eli Karg",
+        "sex":"M"
+    },
+    {
+        "distance":"5000",
+        "time":"22:20",
+        "holder":"Maggie Kirt",
+        "sex":"F"
+    },
+    {
+        "distance":"13.1",
+        "time":"1:29:29",
+        "holder":"Morgan Powers",
+        "sex":"M"
+    },
+    {
+        "distance":"13.1",
+        "time":"1:53:18",
+        "holder":"Elizabeth McLauchlin",
+        "sex":"F"
+    },
+    {
+        "distance":"25k",
+        "time":"1:55:14",
+        "holder":"Morgan Powers",
+        "sex":"M"
+    }
+]

@@ -22,7 +22,7 @@ export default function Logout(){
 
   //logout button
   return(
-      <button className="bg-gray-300 hover:bg-gray-400 text-black font-[Volkhov] px-1 rounded-sm border-2 border-blue-300" onClick={logout}>
+      <button className="bg-gray-300 hover:bg-gray-400 text-black font-[Graduate] px-1 rounded-sm border-2 border-blue-300" onClick={logout}>
         Logout
       </button>
   );

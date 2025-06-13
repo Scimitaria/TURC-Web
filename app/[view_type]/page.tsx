@@ -2,6 +2,7 @@ import Home from "./home";
 import LoginPage from "./loginPage";
 
 import auth from "@/app/helpers/auth";
+import Records from "./records";
 
 //handles navigation between pages
 
@@ -22,6 +23,12 @@ export default async function Page({ params }: { params: { view_type: string } }
                 return (
                   <>
                     <Home isLoggedIn={loggedIn}/>
+                  </>
+                );
+            case 'records':
+                return (
+                  <>
+                    <Records/>
                   </>
                 );
             case 'login':

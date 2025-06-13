@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { cookies } from 'next/headers'
-import data from '../../helpers/auth.json'
+import data from '../../helpers/data/auth.json'
 
 //handles login cookies
 

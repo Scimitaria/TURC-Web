@@ -38,7 +38,7 @@ export default function Login() {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Username"
-            className="font-[Volkhov] text-center"
+            className="font-[Graduate] text-center"
           />
           </div>
 
@@ -49,12 +49,12 @@ export default function Login() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Password"
-            className="font-[Volkhov] text-center"
+            className="font-[Graduate] text-center"
           />
         </div>
 
         {/* the login button having type="submit" makes it trigger onSubmit */}    
-        <button type="submit" className="bg-gray-300 hover:bg-gray-400 text-black font-[Volkhov] px-1 rounded-sm border-2 border-blue-300">Login</button>
+        <button type="submit" className="bg-gray-300 hover:bg-gray-400 text-black font-[Graduate] px-1 rounded-sm border-2 border-blue-300">Login</button>
       </form>
     </div>
   );
