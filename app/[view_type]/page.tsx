@@ -1,4 +1,5 @@
 import Home from "./home";
+import LoginPage from "./loginPage";
 
 import auth from "@/app/helpers/auth";
 
@@ -21,6 +22,12 @@ export default async function Page({ params }: { params: { view_type: string } }
                 return (
                   <>
                     <Home isLoggedIn={loggedIn}/>
+                  </>
+                );
+            case 'login':
+                return (
+                  <>
+                    <LoginPage isLoggedIn={loggedIn}/>
                   </>
                 );
             {/* if url is invalid */}
